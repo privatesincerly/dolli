@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --dolli-rouge-premier: #FF0000;
+    --dolli-rouge-alternatif: #FF4545;
+    --dolli-rouge-eclatant: #FF5E5E;
+    --dolli-cumulus-premier: #4555FF;
+    --dolli-cumulus-alternatif: #638DFF;
+    --dolli-cumulus-eclatant: #7094FF;
+    --dolli-ecume-premier: #161F9E;
+    --dolli-ecume-alternatif: #222DCB;
+    --dolli-ecume-eclatant: #434FFF;
+    --dolli-archipel-premier: #008DA0;
+    --dolli-archipel-alternatif: #00B0C7;
+    --dolli-archipel-eclatant: #68EDFF;
+    --dolli-menthe-premier: #009982;
+    --dolli-menthe-alternatif: #01CCAE;
+    --dolli-menthe-eclatant: #3DFFE2;
+    --dolli-emeraude-premier: #00D04C;
+    --dolli-emeraude-alternatif: #00FF77;
+    --dolli-emeraude-eclatant: #6AF98B;
+    --dolli-gazon-premier: #18D000;
+    --dolli-gazon-alternatif: #15FF00;
+    --dolli-gazon-eclatant: #95F96A;
+    --dolli-ocre-premier: #D0008E;
+    --dolli-ocre-alternatif: #FF0088;
+    --dolli-ocre-eclatant: #F96ABB;
+    --dolli-ville-premier: #D000B8;
+    --dolli-ville-alternatif: #FF00F2;
+    --dolli-ville-eclatant: #F96AED;
+    --dolli-amethyste-premier: #4B008C;
+    --dolli-amethyste-alternatif: #9500FF;
+    --dolli-amethyste-eclatant: #BD6AF9;
+    --dolli-blanc-premier: #FFFFFF;
+    --dolli-blanc-alternatif: #F0FFFF;
+    --dolli-blanc-eclatant: #E5E5E5;
+    --dolli-carbone-premier: #000000;
+    --dolli-carbone-alternatif: #1B1B1B;
+    --dolli-carbone-eclatant: #222222;
+    --dolli-rouge-transparency-emphasis: #FF454580;
+    --dolli-cumulus-transparency-emphasis: #4555FF80;
+    --dolli-ecume-transparency-emphasis: #161F9E80;
+    --dolli-archipel-transparency-emphasis: #68EDFF80;
+    --dolli-menthe-transparency-emphasis: #3DFFE280;
+    --dolli-emeraude-transparency-emphasis: #00FF7780;
+    --dolli-gazon-transparency-emphasis: #15FF0080;
+    --dolli-ocre-transparency-emphasis: #FF22A380;
+    --dolli-ville-transparency-emphasis: #FF00F280;
+    --dolli-amethyste-transparency-emphasis: #9500FF80;
+    --dolli-rouge-border-solid: #FD2F2F;
+    --dolli-cumulus-border-solid: #5764EE;
+    --dolli-ecume-border-solid: #2E3CFF;
+    --dolli-archipel-border-solid: #3ECEEE;
+    --dolli-menthe-border-solid: #4FFFE5;
+    --dolli-emeraude-border-solid: #55FFA4;
+    --dolli-gazon-border-solid: #4FFF3F;
+    --dolli-ocre-border-solid: #FF4BB4;
+    --dolli-ville-border-solid: #FF3FF5;
+    --dolli-amethyste-border-solid: #BE63FF;
+
+    --dolli-font-family: "Montserrat", sans-serif;
+    --dolli-font-titrage: "Funnel Display", sans-serif;
+    --dolli-font-serif: "Spectral", serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: var(--dolli-font-family);
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--dolli-font-titrage);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+}
+
+p, span, i {
+    font-family: var(--dolli-font-family);
+}
